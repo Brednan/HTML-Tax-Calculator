@@ -1,0 +1,114 @@
+@font-face{
+    font-family: 'CustomFont';
+    src: url('./custom-font/NewAthletic/new_athletic_m54.woff') format('woff');
+
+}
+@font-face{
+    font-family: 'CustomFont2';
+    src:url('./custom-font/AmericanCaptain/american_captain.woff')format('woff');
+}
+body{
+    background-image: url('./Images/background.png')
+}
+#titleVal{
+    font-size: 100px;
+    position: relative;
+    left: 950px;
+    background-color: aqua;
+    font-family: 'CustomFont';
+}
+#dropdown{
+    font-size: 100px;
+    position: relative;
+    top: 950px;
+    color: white;
+    text-shadow: 2px 5px 10px black;
+    background-color: red;
+}
+#Canadian{
+    font-size: 80px;
+    position: relative;
+    top: 970px;
+    background-color: red;
+    text-shadow: 2px 5px 8px black;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    transition: 2s;
+}
+#American{
+    font-size: 80px;
+    position: relative;
+    top: 1080px;
+    left: -360px;
+    background-color: red;
+    text-shadow: 2px 5px 8px black;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    transition: 2s;
+}
+#incomeLabel{
+    font-size: 120px;
+    position: relative;
+    left: -300px;
+    top: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    text-shadow: 3px 1px 8px black;
+}
+#IncomeInput{
+    font-size: 60px;
+    position: relative;
+    left: 1050px;
+    top: 200px;
+}
+#Total{
+    font-size: 60px;
+    position: relative;
+    left: 310px;
+    top: 500px;
+}
+#outputLabel{
+    font-size: 120px;
+    position: relative;
+    left: -600px;
+    top: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    text-shadow: 3px 1px 8px black;
+}
+#ModeLabel{
+    font-size: 80px;
+    position: relative;
+    left: -1470px;
+    color: aliceblue;
+}
+#Submit{
+    transition: 2s;
+    font-size: 100px;
+    font-family: Cambria;
+    text-shadow: 2px 2px 8px black;
+    color: aliceblue;
+    background-color: cadetblue;
+    position: relative;
+    top: 700px;
+    left: 1350px;
+}
+#ClearButton{
+    transition: 2s;
+    font-size: 100px;
+    font-family: Cambria;
+    text-shadow: 2px 2px 8px black;
+    color: aliceblue;
+    background-color: cadetblue;
+    position: relative;
+    top: 700px;
+    left: 650px;
+}
+#ModeText{
+    color: aquamarine;
+    font-size: 100px;
+    position: relative;
+    left: -1480px;
+    font-family: 'CustomFont2';
+    text-decoration: underline;
+}

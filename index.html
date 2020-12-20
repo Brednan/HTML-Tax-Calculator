@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <script src="./app.js"></script>
+    <script src="./buttonAnimations.js"></script>
+
+    <p1 id="titleVal">HTML Tax Calculator</p1>
+    <p1 id="incomeLabel">Income:</p1>
+    <p1 id="outputLabel">Total:</p1>
+    <p1 id="ModeText">Mode:</p1>
+    <p1 id="ModeLabel"></p1>
+
+    <form>
+        <input type="text" id="IncomeInput">
+        <input type="text" id="Total" readonly>
+    </form>
+    
+    <button id="Submit" onclick="Calculate(document.getElementById('IncomeInput').value); buttonClickAnimation(document.getElementById('Submit'))">SUBMIT</button>
+    <button id="ClearButton" onclick="ClearScreen(document.getElementById('IncomeInput'), document.getElementById('Total'))">Clear</button>
+
+    <div id="menuFull">
+    <button id='dropdown' onclick="setDropDownVisibility()">Mode</button>
+    <div id="selectMode">
+        <button id="Canadian" onclick="CanadianMode(); buttonClickAnimation(document.getElementById('Canadian')); ClearScreen(document.getElementById('IncomeInput'), document.getElementById('Total'))">Canadian</button>
+        <button id="American" onclick="buttonClickAnimation(document.getElementById('American')); AmericanMode(); ClearScreen(document.getElementById('IncomeInput'), document.getElementById('Total'))">American</button>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="loginStyle.css">
+<body>
+    <script src="./accounts.js"></script>
+    <script src="./buttonAnimations.js"></script>
+    <script src="./accounts.js"></script>
+    
+    <p1 id="title">Login</p1>
+
+    <p1 id="usernameLabel">USERNAME:</p1>
+    <p1 id="passwordLabel">PASSWORD:</p1>
+    <form>
+        <input type="text" id="username">
+        <input type="text" id="password">
+    </form>
+    <button id="Submit" onclick="Login(document.getElementById('username').value, document.getElementById('password').value); buttonClickAnimation(document.getElementById('Submit'))">SUBMIT</button>
+</body>
+</html>

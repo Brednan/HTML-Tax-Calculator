@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Custon-Font";
+    src: url("./custom-font/NewAthletic/new_athletic_m54.woff")
+}
+
+#title{
+    font-size: 200px;
+    font-family: "Custon-Font";
+    position: relative;
+    left: 1150px;
+    color: aliceblue;
+    text-shadow: 1px 3px 8px black;
+}
+
+body{
+    background-image: url('./Images/minimal-sunset-landscape-4k-w5.jpg');
+}
+
+#Submit{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    left: 1150px;
+    top: 900px;
+    font-size: 100px;
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: cadetblue;
+    font-family:fantasy;
+}
+#username{
+    font-size: 60px;
+    position: relative;
+    left: 970px;
+    top: 150px;
+}
+#password{
+    font-size: 60px;
+    position: relative;
+    left: 230px;
+    top: 500px;
+}
+#usernameLabel{
+    font-size: 60px;
+    position: relative;
+    left: 550px;
+    top: 150px;
+    color: aliceblue;
+    text-shadow: 2px 1px 8px black;
+}
+#passwordLabel{
+    font-size: 60px;
+    position: relative;
+    left: 210px;
+    top: 500px;
+    color: aliceblue;
+    text-shadow: 2px 1px 8px black;
+}
